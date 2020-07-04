@@ -12,6 +12,7 @@ import ARKit
 // firstcommit
 class ViewController: UIViewController {
     
+    // ARView
     private var myArSceneView: ARSCNView = {
         let arView = ARSCNView()
         return arView
